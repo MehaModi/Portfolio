@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meha Modi</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="./index.html">Meha Modi</a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="header__nav__option">
+                        <nav class="header__nav__menu mobile-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li class="active"><a href="./projects.html">projects</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul class="dropdown">
+                                        <li><a href="./index.html">Home</a></li>
+                                        <li><a href="./about.html">About</a></li>
+                                        <li><a href="./contact.html">Contact</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__nav__social">
+                            <a href="https://www.linkedin.com/in/meha-modi-841001225/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/MehaModi"><i class="fa fa-github"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcrumb__text">
+                        <h2>My Projects</h2>
+                        <div class="breadcrumb__links">
+                            <a href="./index.html">Home</a>
+                            <span>Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Project Section Begin -->
+    <section class="portfolio spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="portfolio__filter">
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".capstone">Capstone</li>
+                        <li data-filter=".atm-machine">ATM Machine</li>
+                        <li data-filter=".weather-app">Weather APP</li>
+                        <li data-filter=".sprint">Sprint</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio__gallery">
+                <div class="col-lg-4 col-md-6 col-sm-6 mix atm-machine">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                        </div>
+                        <div class="portfolio__item__text">
+                            <h4>ATM Machine</h4>
+                            <span>ATM Machine</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 mix weather-app">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-2.jpg">
+                        </div>
+                        <div class="portfolio__item__text">
+                            <h4>Weather APP</h4>
+                            <span>Weather App</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-sm-6 mix capstone">
+                    <div class="portfolio__item" onclick="toggleText('summary')">
+                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-3.jpg"></div>
+                        <div class="portfolio__item__text">
+                            <h4>Project Summary</h4>
+                            <ul>
+                                <li>Capstone</li>
+                                <li>Project Summary</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="summaryText" class="hiddenText">
+                        <p>The project aims to develop a comprehensive web application called BLO Fashion, focusing on delivering an innovative shopping experience through the integration of chatbot technology and virtual reality (VR) clothing try-on features.</p>
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-md-6 col-sm-6 mix capstone">
+                    <div class="portfolio__item" onclick="toggleText('portfolio4')">
+                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-4.jpg"></div>
+                        <div class="portfolio__item__text">
+                            <h4>Project Vision</h4>
+                            <ul>
+                                <li>Capstone</li>
+                                <li>Project Vision</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="portfolio4Text" class="hiddenText">
+                        <p>The Project Vision includes a comprehensive overview of our ambitious undertaking, where we will introduce two groundbreaking elements to the BLO brand: a sophisticated chatbot and an immersive VR clothing experience. 
+                            By combining these innovative solutions, we aspire to revolutionize the fashion retail landscape, creating an unparalleled fusion of convenience, personalization, and engagement for BLO's clientele.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mix capstone">
+                    <div class="portfolio__item" onclick="toggleText('portfolio5')">
+                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-5.jpg"></div>
+                        <div class="portfolio__item__text">
+                            <h4>Project Plan</h4>
+                            <ul>
+                                <li>Capstone</li>
+                                <li>Project Plan</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="portfolio5Text" class="hiddenText">
+                        <p>Timeline and milestones for the project:</p>
+                        <table>
+                            <tr>
+                            <th>Milestone</th>
+                            <th>Completion Date</th>
+                            <th>Responsible Party</th>
+                            </tr>
+                            <tr>
+                            <td>Project Kick-off</td>
+                            <td>October 22, 2023</td>
+                            <td>Project Manager</td>
+                            </tr>
+                            <tr>
+                            <td>Project Planning Completed</td>
+                            <td>November 1, 2023</td>
+                            <td>Project Manager</td>
+                            </tr>
+                            <tr>
+                            <td>front-end development Completed</td>
+                            <td>December 1, 2023</td>
+                            <td>Development Lead</td>
+                            </tr>
+                            <tr>
+                            <td>back-end development Completed</td>
+                            <td>December 15, 2023</td>
+                            <td>Development Lead</td>
+                            </tr>
+                            <tr>
+                            <td>Testing Completed</td>
+                            <td>January 27, 2024</td>
+                            <td>Quality Assurance Lead</td>
+                            </tr>
+                            <tr>
+                            <td>UI/UX Design</td>
+                            <td>November 23, 2023</td>
+                            <td>Design team</td>
+                            </tr>
+                            <tr>
+                            <td>ChatBot Integration Compeleted</td>
+                            <td>January 10, 2024</td>
+                            <td>Development Team</td>
+                            </tr>
+                            <tr>
+                            <td>VR Integration Completed</td>
+                            <td>January 20, 2024</td>
+                            <td>Development Team</td> 
+                            </tr>
+                            <tr>
+                            <td>Testing and QA Completed</td>
+                            <td>February 11, 2024</td>
+                            <td>QA Team </td>
+                            </tr>
+                            <tr>
+                            <td>Project Deployment</td>
+                            <td>February 15, 2024</td>
+                            <td>Project Manager</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mix capstone">
+                    <div class="portfolio__item" onclick="toggleText('portfolio6')">
+                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-6.jpg"></div>
+                        <div class="portfolio__item__text">
+                            <h4>Requirements Analysis and Design</h4>
+                            <ul>
+                                <li>Capstone</li>
+                                <li>Requirements Analysis and Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="portfolio6Text" class="hiddenText">
+                        <p>Our High-Level capabilities include the following:</p>
+                        <ul>
+                            <li>Virtual Try-On</li>
+                            <li>Interactive Chatbot Assistance</li>
+                            <li>Data Privacy and Security</li>
+                            <li>Multi-Payment Options</li>
+                            <li>Data Insights and Analytics</li>
+                            <li>Real-Time Product Recommendations</li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <!-- Add more portfolio items with respective hidden text -->
+            
+                <script>
+                    function toggleText(section) {
+                        var text = document.getElementById(section + "Text");
+                        if (text.style.display === "none") {
+                            text.style.display = "block";
+                        } else {
+                            text.style.display = "none";
+                        }
+                    }
+                </script>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 mix capstone">
+                    <a href="https://www.figma.com/proto/z1YviJD6V07FYic2AW4KKO/E-Commerce-Fashion-App-%26-Web.-%F0%9F%A6%84-freebies-(Community)?type=design&node-id=5-991&t=TOxk8a1PNdBSEtnk-0&scaling=min-zoom&page-id=0%3A1" target="_blank" rel="noopener noreferrer">
+                        <div class="portfolio__item">
+                            <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-7.jpg"></div>
+                            <div class="portfolio__item__text">
+                                <h4>Wireframes-mockups</h4>
+                                <ul>
+                                    <li>Capstone</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>                
+                <div class="col-lg-4 col-md-6 col-sm-6 mix sprint">
+                    <a href="AgileProject.pdf" target="_blank" rel="noopener noreferrer">
+                        <div class="portfolio__item">
+                            <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-8.jpg"></div>
+                            <div class="portfolio__item__text">
+                                <h4>Agile Software Development</h4>
+                                <span>Sprint</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pagination__option">
+                        <a href="#" class="arrow__pagination left__arrow"><span class="arrow_left"></span> Prev</a>
+                        <a href="#" class="number__pagination">1</a>
+                        <a href="#" class="number__pagination">2</a>
+                        <a href="#" class="arrow__pagination right__arrow">Next <span class="arrow_right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__top__logo">
+                            <a href="#">Meha Modi</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer__top__social">
+                            <a href="https://www.linkedin.com/in/meha-modi-841001225/"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://github.com/MehaModi"><i class="fa fa-github"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p class="footer__copyright__text">Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            Meha Modi | This website is built with React & Next.js, TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
